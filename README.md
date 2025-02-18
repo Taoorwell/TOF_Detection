@@ -31,8 +31,8 @@ Other Parameters
 - `--batch_size` batch size for model prediction
 
 ## Datasets
-We convert Images and vectors (Annotation data) into coco Format file. For more details, please refer to our another github https://github.com/Taoorwell/dop
-Make sure the image path is right for coco dataset file. 
+We convert Images and vectors (Annotation data) into coco Format file. For more details, please refer to our another github https://github.com/Taoorwell/dop.
+Make sure the image path is right for coco dataset file.
 ```
 {
 
