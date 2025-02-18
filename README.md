@@ -5,27 +5,24 @@
 
 ```
 conda env create -f environment.yml
-
 ```
 
 ## Config file
 Check the config file in the config folder and customize the file based on your dataset path, model structure, train Pipeline.
-For more details, please refer to https://mmdetection.readthedocs.io/en/dev-3.x/user_guides/config.html.
+For more details, please refer to https://mmdetection.readthedocs.io/en/dev-3.x/user_guides/config.html. We put some config file in the folder `configs` for your reference.
 
 
 ## Training
 
 ```
 python train.py config file --work-dir logs/
-
 ```
 
 ## Mapping 
-Applying a trained detection model using the `pre_large_bbox.py`
+Applying a trained detection model using the `pre_large_bbox.py`, by partitioning large images into several tiles (chunks), and then apply model on chunks for prediction.
 
 ```
 python pre_large_bbox.py --dir folder --cfg xx_config.py --checkpoint xx_epoch.pth 
-
 ```
 Other Parameters
 - `--chunk_size` chunk size for tile processing
@@ -35,7 +32,7 @@ Other Parameters
 
 ## Datasets
 We convert Images and vectors (Annotation data) into coco Format file. For more details, please refer to our another github https://github.com/Taoorwell/dop
-
+Make sure the image path is right for coco dataset file. 
 ```
 {
 
