@@ -54,4 +54,13 @@ Make sure the image path is right for coco dataset file.
 
 
 ## Citation
-To do
+```
+@article{jiang2025detection,
+  title={Detection transformer-based approach for mapping trees outside forests on high resolution satellite imagery},
+  author={Jiang, Tao and Freudenberg, Maximilian and Kleinn, Christoph and L{\"u}ddecke, Timo and Ecker, Alexander and N{\"o}lke, Nils},
+  journal={Ecological Informatics},
+  pages={103114},
+  year={2025},
+  publisher={Elsevier}
+}
+```
