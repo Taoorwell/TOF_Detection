@@ -32,7 +32,7 @@ Other Parameters
 
 ## Datasets
 We convert Images and vectors (Annotation data) into coco Format file. For more details, please refer to our another github https://github.com/Taoorwell/dop.
-Make sure the image path is right for coco dataset file. 
+Make sure the image path is right for coco dataset file. The training image patches and annotation coco file are available in [Zenodo](https://zenodo.org/records/15233073)
 ```
 {
 
