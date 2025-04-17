@@ -1,5 +1,6 @@
 # Detection Transformer-Based Approach for Mapping Trees Outside Forests on High Resolution Satellite Imagery
-![Tree crown anotations using bounding boxes and polygons](Dataset/1.png)
+![](Dataset/1.png)
+*Tree crown annotations using bounding boxes and polygons.*
 ## Installation
 ```
 conda env create -f environment.yml
